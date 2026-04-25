@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝙳é𝚕𝚒𝚌𝚎 𝚋𝚢 𝙽𝚊𝚘𝚞𝚊𝚕</title>
+    <meta name="description" content="Contactez Naoual pour commandes de gâteaux, trompe-l'œil et pâtisseries artisanales. Téléphone, email, Snapchat & Instagram.">
+    <link rel="icon" type="image/png" href="gateau.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Amatic+SC:wght@400;700&family=Reenie+Beanie&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+</head>
+<body>
+    <svg class="svg-filters" aria-hidden="true">
+        <defs>
+            <filter id="sketch-filter" x="-8%" y="-8%" width="116%" height="116%">
+                <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="4" seed="3" result="noise">
+                    <animate attributeName="baseFrequency" values="0.04;0.045;0.038;0.042;0.04" dur="7s" repeatCount="indefinite" />
+                </feTurbulence>
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.8" xChannelSelector="R" yChannelSelector="G" result="displaced" />
+                <feBlend in="displaced" in2="SourceGraphic" mode="normal" />
+            </filter>
+            <filter id="text-sketch" x="-4%" y="-4%" width="108%" height="108%">
+                <feTurbulence type="fractalNoise" baseFrequency="0.07" numOctaves="3" seed="7" result="noise">
+                    <animate attributeName="baseFrequency" values="0.07;0.075;0.068;0.072;0.07" dur="9s" repeatCount="indefinite" />
+                </feTurbulence>
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.2" xChannelSelector="R" yChannelSelector="G" />
+            </filter>
+        </defs>
+    </svg>
+
+    <div class="spiral-binding" aria-hidden="true"></div>
+    <div class="spiral-holes" aria-hidden="true"></div>
+    <div class="paperclip" aria-hidden="true"></div>
+    <div class="eraser-doodle" aria-hidden="true"></div>
+
+    <div class="container">
+        <div class="header">
+            <div class="logo-container">
+                <span class="deco sketch-circle" aria-hidden="true"></span>
+                <span class="deco sketch-circle-hatches" aria-hidden="true"></span>
+                <div class="logo">
+                    <model-viewer
+                        id="cake3DModel"
+                        src="https://raw.githubusercontent.com/zznkch/delice/main/handpainted_watercolor_cake.glb"
+                        alt="Délice by Naoual"
+                        disable-zoom
+                        auto-rotate
+                        rotation-per-second="55deg"
+                        environment-image="neutral"
+                        exposure="1"
+                        shadow-intensity="1.1"
+                        camera-orbit="0deg 75deg 105%"
+                        field-of-view="25deg"
+                        title="Délice by Naoual">
+                    </model-viewer>
+                </div>
+            </div>
+            <h1 class="brand">
+                <span class="brand-text">Délice<span class="by"> by </span>Naoual</span>
+            </h1>
+            <p class="subtitle">Le goût du bonheur dans chaque bouchée</p>
+        </div>
+
+        <div class="buttons-section">
+            <h2 class="section-title">Contact et Commandes</h2>
+            <div class="buttons-grid">
+                <a class="btn-perfected btn-snapchat" target="_blank" href="https://www.snapchat.com/add/delice_bynaoual" aria-label="Visiter le profil Snapchat de Délice by Naoual">
+                    <span class="deco btn-sketch-border" aria-hidden="true"></span>
+                    <span class="deco btn-sketch-border-2" aria-hidden="true"></span>
+                    <span class="deco btn-corner-scribble corner-tl" aria-hidden="true"></span>
+                    <span class="deco btn-corner-scribble corner-br" aria-hidden="true"></span>
+                    <span class="deco btn-hatch hatch-top" aria-hidden="true"></span>
+                    <span class="deco btn-hatch hatch-bottom" aria-hidden="true"></span>
+                    <span class="deco btn-pencil-smudge" aria-hidden="true"></span>
+                    <div class="btn-icon-wrapper">
+                        <span class="deco icon-sketch-ring" aria-hidden="true"></span>
+                        <div class="btn-icon">
+                            <img src="https://raw.githubusercontent.com/zznkch/delice/main/ftouricone/snapchat.png" alt="Icône Snapchat" width="200" height="200" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                    <div class="btn-content">
+                        <div class="btn-title">SNAPCHAT</div>
+                        <div class="btn-subtitle">delice_bynaoual</div>
+                    </div>
+                </a>
+                <a class="btn-perfected btn-instagram" target="_blank" href="https://www.instagram.com/les_patisseries_de_naoual" aria-label="Visiter le profil Instagram de Délice by Naoual">
+                    <span class="deco btn-sketch-border" aria-hidden="true"></span>
+                    <span class="deco btn-sketch-border-2" aria-hidden="true"></span>
+                    <span class="deco btn-corner-scribble corner-tl" aria-hidden="true"></span>
+                    <span class="deco btn-corner-scribble corner-br" aria-hidden="true"></span>
+                    <span class="deco btn-hatch hatch-top" aria-hidden="true"></span>
+                    <span class="deco btn-hatch hatch-bottom" aria-hidden="true"></span>
+                    <span class="deco btn-pencil-smudge" aria-hidden="true"></span>
+                    <div class="btn-icon-wrapper">
+                        <span class="deco icon-sketch-ring" aria-hidden="true"></span>
+                        <div class="btn-icon">
+                            <img src="https://raw.githubusercontent.com/zznkch/delice/main/ftouricone/instagram.png" alt="Icône Instagram" width="200" height="200" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                    <div class="btn-content">
+                        <div class="btn-title">INSTAGRAM</div>
+                        <div class="btn-subtitle">les_patisseries_de_naoual</div>
+                    </div>
+                </a>
+                <a class="btn-perfected btn-email" href="mailto:delicebynaoual@gmail.com" aria-label="Envoyer un email à Délice by Naoual">
+                    <span class="deco btn-sketch-border" aria-hidden="true"></span>
+                    <span class="deco btn-sketch-border-2" aria-hidden="true"></span>
+                    <span class="deco btn-corner-scribble corner-tl" aria-hidden="true"></span>
+                    <span class="deco btn-corner-scribble corner-br" aria-hidden="true"></span>
+                    <span class="deco btn-hatch hatch-top" aria-hidden="true"></span>
+                    <span class="deco btn-hatch hatch-bottom" aria-hidden="true"></span>
+                    <span class="deco btn-pencil-smudge" aria-hidden="true"></span>
+                    <div class="btn-icon-wrapper">
+                        <span class="deco icon-sketch-ring" aria-hidden="true"></span>
+                        <div class="btn-icon">
+                            <img src="https://raw.githubusercontent.com/zznkch/delice/main/ftouricone/email.png" alt="Icône Email" width="200" height="200" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                    <div class="btn-content">
+                        <div class="btn-title">E-MAIL</div>
+                        <div class="btn-subtitle">delicebynaoual@gmail.com</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="footer">✦ Croqué avec passion ✦</div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
