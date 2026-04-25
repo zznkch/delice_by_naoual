@@ -267,11 +267,6 @@ model-viewer:hover { transform: scale(1.25) rotateY(12deg); animation-play-state
     border-top: 1.5px dashed var(--pencil-faint); filter: url(#sketch-filter);
 }
 
-.doodle-star { opacity: 0.5; z-index: 6; }
-.doodle-star::before {
-    content: '✧'; font-size: 16px; color: var(--pencil-light); filter: url(#sketch-filter);
-}
-
 @media (max-width: 992px) {
     .container { gap: 28px; }
     .brand { font-size: clamp(2.4rem,6.5vw,4.2rem); }
