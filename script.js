@@ -9,7 +9,6 @@
     }
 
     const buttons = document.querySelectorAll('.btn-perfected');
-    const stars = ['✧','✦','·','∘','✶'];
     buttons.forEach(btn => {
         const positions = [
             { top: '-14px', left: '12px' },
